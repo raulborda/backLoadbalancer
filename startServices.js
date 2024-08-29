@@ -1,4 +1,4 @@
-const { spawn } = require('child_process');
+import { spawn }  from 'child_process';
 
 const services = [
   { port: 3001, id: 'microservice 1' },

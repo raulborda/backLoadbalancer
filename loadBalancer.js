@@ -12,6 +12,7 @@ const targets = [
   { host: 'http://localhost:3006', id: 'microservice 6' },
 ];
 
+
 let current = 0;
 
 const server = http.createServer((req, res) => {
